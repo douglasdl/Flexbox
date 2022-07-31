@@ -1,0 +1,52 @@
+html, 
+body, 
+#app {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    /* block, flex, flex-wrap, block-inline,  */
+    display: flex;
+
+    /* row, column, row-reverse, column-reverse */
+    flex-direction: row; 
+
+    /* flex-start, flex-end, center */
+    align-items: center; 
+
+    /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+    justify-content: center; 
+
+    /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+    align-content: center;
+
+    /* wrap, wrap-reverse */
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 180px;
+    height: 60px;
+    background: #ccc;
+    margin: 5px;
+
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex: 1; */
+}
+
+.red {
+    background: #f00;
+    order: 3;
+}
+
+.green {
+    background: #0f0;
+    order: 2;
+}
+
+.blue {
+    background: #00f;
+    order: 0;
+}
